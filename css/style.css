@@ -41,19 +41,6 @@
   box-sizing: border-box; }
 
 
-  html, body {
-  overflow-x: hidden;
-  overflow-y: auto;
-  height: auto;
-  position: relative;
-}
-
-@media (max-width: 767px) {
-  .js-fullheight {
-    height: auto !important;
-    min-height: auto !important;
-  }
-}
 
 html {
   font-family: sans-serif;
