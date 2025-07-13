@@ -48,6 +48,13 @@
   position: relative;
 }
 
+@media (max-width: 767px) {
+  .js-fullheight {
+    height: auto !important;
+    min-height: auto !important;
+  }
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
